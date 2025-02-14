@@ -1,0 +1,238 @@
+// app global css in SCSS form
+
+.header {
+  margin: 0;
+  font-weight: 500;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.slide-desc {
+  text-align: left;
+  font-size: 1.3rem;
+  padding-top: 10px;
+}
+
+.slide-image {
+  width: 100%;
+}
+
+.q-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.q-footer {
+  position: relative;
+}
+
+.q-page-container {
+  margin-bottom: auto;
+}
+
+.section-desc {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.career .section-desc {
+  font-size: 1.25rem;
+}
+
+.card-header {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.card-desc {
+  font-size: 1.25rem;
+}
+
+.enquiry-text {
+  font-size: 1.75rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.roles-card {
+  height: 100%;
+}
+
+.roles-card .q-card__section {
+  padding: 1.5rem;
+}
+
+.svg-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.roles-card .icon {
+  text-align: right;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list img {
+  width: 200px;
+  max-width: 100%;
+}
+
+.list-item {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  justify-content: center;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.dellTechLogo {
+  fill: #0076ce;
+}
+
+.q-header {
+  position: sticky !important;
+}
+
+.q-page-container {
+  padding-top: 25px !important;
+  position: relative;
+}
+
+.q-carousel.homepage-carousel {
+  // position: unset;
+}
+
+.aws-logo {
+  max-width: 70% !important;
+}
+
+.daktronics-logo {
+  max-width: 80% !important;
+}
+
+.lg-logo {
+  max-width: 60% !important;
+}
+
+.nav-tabs {
+}
+
+.brand-logo {
+  flex-shrink: 0;
+}
+
+.q-toolbar {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.evantek-qr-section {
+  position: fixed;
+  right: 0;
+  top: 75px;
+  max-width: 180px;
+  padding: 1rem;
+  z-index: 999;
+}
+
+.qr-code {
+  width: 100%;
+}
+
+.negative-margin {
+  margin-top: -2rem;
+  margin-bottom: -2rem;
+}
+
+.testimonial-header {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.testimonial-text,
+.testimonial-user {
+  font-size: 1.25rem;
+}
+
+.testimonial-user  {
+  font-weight: 500;
+}
+
+.testimonial-photo {
+  display: flex;
+  align-items: center;
+}
+
+.opportunities-carousel,
+.testimonial-carousel {
+  max-width: 1200px;
+}
+
+.google-form {
+  width: 100%;
+  height: calc(100vh - 200px) !important;
+}
+
+.google-map {
+  width: 100%;
+  height: calc(100vh - 200px) !important;
+}
+
+.vertical-qr-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 700px;
+}
+
+.vertical-qr {
+  max-width: 500px;
+}
+
+@media screen and (max-width: 1024px) {
+  .testimonial-card .q-card__section {
+    flex-wrap: wrap !important;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .evantek-qr-section {
+    display: none;
+  }
+
+  .vertical-qr-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .evantek-qr-section {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .vertical-qr-container {
+    display: none;
+  }
+
+  .evantek-qr-section {
+    display: block;
+  }
+}
